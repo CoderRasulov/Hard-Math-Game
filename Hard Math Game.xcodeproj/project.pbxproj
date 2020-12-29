@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CAFB21B240D1F4100015488 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAFB21A240D1F4100015488 /* AppDelegate.swift */; };
+		8CAFB224240D1F4200015488 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CAFB223240D1F4200015488 /* Assets.xcassets */; };
+		8CAFB227240D1F4200015488 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CAFB225240D1F4200015488 /* LaunchScreen.storyboard */; };
+		8CAFB239240D1F9400015488 /* Levels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAFB22E240D1F9400015488 /* Levels.swift */; };
+		8CAFB23A240D1F9400015488 /* Calc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAFB22F240D1F9400015488 /* Calc.swift */; };
+		8CAFB23B240D1F9400015488 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAFB230240D1F9400015488 /* Results.swift */; };
+		8CAFB23C240D1F9400015488 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAFB231240D1F9400015488 /* Home.swift */; };
+		8CAFB23D240D1F9400015488 /* LevelsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAFB232240D1F9400015488 /* LevelsCell.swift */; };
+		8CAFB23E240D1F9400015488 /* LevelUP.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8CAFB233240D1F9400015488 /* LevelUP.mp3 */; };
+		8CAFB23F240D1F9400015488 /* Back.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8CAFB234240D1F9400015488 /* Back.wav */; };
+		8CAFB240240D1F9400015488 /* Games.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAFB235240D1F9400015488 /* Games.swift */; };
+		8CAFB241240D1F9400015488 /* Bonus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAFB236240D1F9400015488 /* Bonus.swift */; };
+		8CAFB242240D1F9400015488 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAFB237240D1F9400015488 /* Settings.swift */; };
+		8CAFB243240D1F9400015488 /* Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAFB238240D1F9400015488 /* Tutorial.swift */; };
+		8CAFB245240D200100015488 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CAFB244240D200100015488 /* Main.storyboard */; };
+		8CEE4810259B607D001088EF /* MDCFloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEE480F259B607D001088EF /* MDCFloatingButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		78CD5A9BA729E1EF97AD616A /* Pods_Hard_Math_Game.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hard_Math_Game.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CAFB217240D1F4100015488 /* Hard Math Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hard Math Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CAFB21A240D1F4100015488 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8CAFB223240D1F4200015488 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CAFB226240D1F4200015488 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8CAFB228240D1F4200015488 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CAFB22E240D1F9400015488 /* Levels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Levels.swift; sourceTree = "<group>"; };
+		8CAFB22F240D1F9400015488 /* Calc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calc.swift; sourceTree = "<group>"; };
+		8CAFB230240D1F9400015488 /* Results.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
+		8CAFB231240D1F9400015488 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		8CAFB232240D1F9400015488 /* LevelsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelsCell.swift; sourceTree = "<group>"; };
+		8CAFB233240D1F9400015488 /* LevelUP.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = LevelUP.mp3; sourceTree = "<group>"; };
+		8CAFB234240D1F9400015488 /* Back.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Back.wav; sourceTree = "<group>"; };
+		8CAFB235240D1F9400015488 /* Games.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Games.swift; sourceTree = "<group>"; };
+		8CAFB236240D1F9400015488 /* Bonus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bonus.swift; sourceTree = "<group>"; };
+		8CAFB237240D1F9400015488 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		8CAFB238240D1F9400015488 /* Tutorial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tutorial.swift; sourceTree = "<group>"; };
+		8CAFB244240D200100015488 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8CEE480F259B607D001088EF /* MDCFloatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDCFloatingButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		49A65A7EAADD6AA83B4AE48F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78CD5A9BA729E1EF97AD616A /* Pods_Hard_Math_Game.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CAFB20E240D1F4100015488 = {
+			isa = PBXGroup;
+			children = (
+				8CAFB219240D1F4100015488 /* Hard Math Game */,
+				8CAFB218240D1F4100015488 /* Products */,
+				49A65A7EAADD6AA83B4AE48F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8CAFB218240D1F4100015488 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CAFB217240D1F4100015488 /* Hard Math Game.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CAFB219240D1F4100015488 /* Hard Math Game */ = {
+			isa = PBXGroup;
+			children = (
+				8CAFB21A240D1F4100015488 /* AppDelegate.swift */,
+				8CEE480F259B607D001088EF /* MDCFloatingButton.swift */,
+				8CAFB22F240D1F9400015488 /* Calc.swift */,
+				8CAFB231240D1F9400015488 /* Home.swift */,
+				8CAFB22E240D1F9400015488 /* Levels.swift */,
+				8CAFB232240D1F9400015488 /* LevelsCell.swift */,
+				8CAFB235240D1F9400015488 /* Games.swift */,
+				8CAFB236240D1F9400015488 /* Bonus.swift */,
+				8CAFB238240D1F9400015488 /* Tutorial.swift */,
+				8CAFB230240D1F9400015488 /* Results.swift */,
+				8CAFB237240D1F9400015488 /* Settings.swift */,
+				8CAFB244240D200100015488 /* Main.storyboard */,
+				8CAFB234240D1F9400015488 /* Back.wav */,
+				8CAFB233240D1F9400015488 /* LevelUP.mp3 */,
+				8CAFB223240D1F4200015488 /* Assets.xcassets */,
+				8CAFB225240D1F4200015488 /* LaunchScreen.storyboard */,
+				8CAFB228240D1F4200015488 /* Info.plist */,
+			);
+			path = "Hard Math Game";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CAFB216240D1F4100015488 /* Hard Math Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CAFB22B240D1F4200015488 /* Build configuration list for PBXNativeTarget "Hard Math Game" */;
+			buildPhases = (
+				8CAFB213240D1F4100015488 /* Sources */,
+				8CAFB215240D1F4100015488 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hard Math Game";
+			productName = "Hard Math Game";
+			productReference = 8CAFB217240D1F4100015488 /* Hard Math Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CAFB20F240D1F4100015488 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1220;
+				ORGANIZATIONNAME = "Asliddin Rasulov";
+				TargetAttributes = {
+					8CAFB216240D1F4100015488 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 8CAFB212240D1F4100015488 /* Build configuration list for PBXProject "Hard Math Game" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CAFB20E240D1F4100015488;
+			productRefGroup = 8CAFB218240D1F4100015488 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CAFB216240D1F4100015488 /* Hard Math Game */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CAFB215240D1F4100015488 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CAFB23E240D1F9400015488 /* LevelUP.mp3 in Resources */,
+				8CAFB245240D200100015488 /* Main.storyboard in Resources */,
+				8CAFB23F240D1F9400015488 /* Back.wav in Resources */,
+				8CAFB227240D1F4200015488 /* LaunchScreen.storyboard in Resources */,
+				8CAFB224240D1F4200015488 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CAFB213240D1F4100015488 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CAFB23A240D1F9400015488 /* Calc.swift in Sources */,
+				8CAFB239240D1F9400015488 /* Levels.swift in Sources */,
+				8CAFB21B240D1F4100015488 /* AppDelegate.swift in Sources */,
+				8CAFB240240D1F9400015488 /* Games.swift in Sources */,
+				8CAFB243240D1F9400015488 /* Tutorial.swift in Sources */,
+				8CEE4810259B607D001088EF /* MDCFloatingButton.swift in Sources */,
+				8CAFB242240D1F9400015488 /* Settings.swift in Sources */,
+				8CAFB241240D1F9400015488 /* Bonus.swift in Sources */,
+				8CAFB23D240D1F9400015488 /* LevelsCell.swift in Sources */,
+				8CAFB23C240D1F9400015488 /* Home.swift in Sources */,
+				8CAFB23B240D1F9400015488 /* Results.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8CAFB225240D1F4200015488 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CAFB226240D1F4200015488 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CAFB229240D1F4200015488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8CAFB22A240D1F4200015488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CAFB22C240D1F4200015488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q3FXDQMYPC;
+				INFOPLIST_FILE = "Hard Math Game/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rasuloff.Hard-Math-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8CAFB22D240D1F4200015488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q3FXDQMYPC;
+				INFOPLIST_FILE = "Hard Math Game/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rasuloff.Hard-Math-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CAFB212240D1F4100015488 /* Build configuration list for PBXProject "Hard Math Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CAFB229240D1F4200015488 /* Debug */,
+				8CAFB22A240D1F4200015488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CAFB22B240D1F4200015488 /* Build configuration list for PBXNativeTarget "Hard Math Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CAFB22C240D1F4200015488 /* Debug */,
+				8CAFB22D240D1F4200015488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CAFB20F240D1F4100015488 /* Project object */;
+}
